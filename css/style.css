@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #343495;
+    margin-bottom: 20px;
+}
+main{
+    
+    background: #fff;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+h1, h2{
+    font-family: 'Open Sans', sans-serif;
+}
+.content_logo{
+    margin-top: 30px;
+    text-align: center;
+}
+.logo_img{
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+.logo_title{
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.logo_txt{
+    width: 70%;
+    margin: auto;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.content1, .content2, .content3, .content4{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+.content_img{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 50%;
+    border: 4px solid #343495;
+}
+.content_img img{
+    width: 100%;
+    height: 100%;
+}
+.content_info, .info_title{
+    margin-top: 20px;
+}
+.info_title{
+    font-size: 30px;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+.info_linea{
+    width: 300px;
+    height: 4px;
+    border-style: none;
+    background: -webkit-linear-gradient(left, black, blue,red);
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.info_text{
+    letter-spacing: 0.3px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 1rem;
+    margin-bottom: 20px;
+}
+.info_link{
+    font-size: 18px;
+    padding: 0.5rem;
+    color:#343495;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid #343495;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.info_link:hover{
+    color: #fff;
+    background: #343495;
+}
+.linea_separador{
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    color: grey;
+}
+.details1, .details2, .details3{
+    width:330px;
+    height: 350px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border:2px solid rgba(0,0,0,0.2);
+    padding: 20px;
+}
+.span{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.2);
+    display: flex;
+}
+.lnr {
+    font-size: 70px;
+    color: blueviolet;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 30px;
+}
+.details_title{
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 0.5rem;
+}
+.details_text{
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.estadistic_items{
+    width: 350px;
+    height: 250px;
+    margin: auto;
+    background: black;
+    color: #fff;
+    padding: 80px;
+}
+.estadistic_items span{
+    color: #fff;
+    border: none;
+    }
+.estadistic_items h4, p{
+    margin-top: 10px;
+}
+.item1{
+    background: blue;
+}
+.item2{
+    background: red;
+}
+.item3{
+    background: green;
+}
+.item4{
+    background: grey;
+}
+.item5{
+    background: orange;
+}
+.buttons{
+    display: flex;
+    width: 250px;
+    margin: auto;
+    justify-content: space-between;
+}
+.boton_aceptar{
+    background: #68b3f4;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    width: 100px;
+    height: 60px;
+    justify-content: center;
+    margin-top: 9px;
+    cursor: pointer;
+}
+@media screen and (min-width:880px){
+    .content1{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .content_img{
+    width: 1600px;
+    height: 400px;
+    margin-top: 40px
+    }
+    .item_details{
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .details1, .details2, .details3{
+        margin: 10px;
+    }
+    .estadistics{
+        display: flex;
+    }
+    .estadistic_items{
+    width: 300px;
+    height: 150px;
+    padding: 15px;
+    }
+    
+.info_title{
+    font-size: 40px;
+}
+
+.info_text{
+    font-size: 20px;
+    
+}
+.info_link{
+    font-size: 25px;
+}
+    .buttons{
+    width: 350px;
+}
+    .boton_aceptar{
+    font-size: 20px;
+    width: 120px;
+   text-transform: uppercase;
+}
+    
+}
+
+
